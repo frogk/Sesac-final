@@ -1,0 +1,84 @@
+$bgColor: #dde3f6;
+$deepColor: #6f76c1;
+$lightColor: #e6e0ec;
+
+.table_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 300px;
+  padding-top: 25px;
+  margin: auto;
+  .PrevButton{
+    width: 11px;
+    height: 18px;
+    font-size: 0;
+    text-indent: -9999px;
+    background: url(/public/img/left.png) no-repeat center / cover;
+    cursor: pointer;
+    &:disabled{
+      background: url(/public/img/left-dis.png) no-repeat center / cover;
+    }
+  }
+    .NextButton{
+      width: 11px;
+      height: 18px;
+      font-size: 0;
+      text-indent: -9999px;
+      cursor: pointer;
+      background: url(/public/img/right.png) no-repeat center / cover;
+      &:disabled{
+        background: url(/public/img/right-dis.png) no-repeat center / cover;
+      }
+  }
+  .page_link {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 800;
+    &:hover {
+      cursor: pointer;
+      color: $deepColor;
+    }
+    &.active {
+      color: $deepColor;
+    }
+  }
+}
+
+.notice-btn {
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgba(111, 118, 193, 1);
+  color: #fff;
+  border: none;
+  box-shadow: 8px 2px 62px 0px rgb(34 51 89 / 10%);
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.notice-btn.temporary{
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+  margin-left: 0.4rem;
+}
+
+@media (min-width: 758px) and (max-width: 1023px) {
+  
+}
+
+@media (min-width: 335px) and (max-width: 757px) {
+  
+}

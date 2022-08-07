@@ -1,0 +1,494 @@
+.titleBanner {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleArea {
+  height: 100%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contentLogo {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.contentLogo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.siteMap {
+  display: flex;
+}
+.siteMap a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #888;
+}
+.siteMap img {
+  width: 17px;
+  height: 17px;
+  padding-right: 5px;
+}
+
+.selfTestBtns {
+  width: 100%;
+  text-align: center;
+}
+.selfTestBtns .active button {
+  background-color: rgb(111, 118, 193);
+}
+
+.selfTestBtns button :first-child {
+  margin-right: 10px;
+}
+
+.selfTestContainer_title {
+  padding: 20px;
+  font-size: 30px;
+  color: #4c539a;
+  text-align: center;
+}
+
+.selfTestContainer_sidebar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  position: absolute;
+  left: -80px;
+}
+.selfTestContainer_sidebar a:first-child {
+  margin-bottom: 15px;
+}
+.selfTestContainer_sidebar button {
+  text-align: start;
+  font-size: 16px;
+  width: 85px;
+  padding: 10px 10px 10px 20px;
+  background-color: #fff;
+  color: #888;
+  border-radius: 5px;
+  border: 1px solid #C4BDD3;
+  cursor: pointer;
+}
+.selfTestContainer_sidebar .active button {
+  background-color: rgb(111, 118, 193);
+  width: 100px;
+  color: #fff;
+}
+.selfTestContainer_sidebar .active {
+  position: relative;
+  z-index: 6;
+}
+
+.selfTestContainer_box {
+  display: flex;
+  padding: 30px 0;
+  width: 100%;
+}
+.selfTestContainer_box .selfTestContainer_box_inner {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.selfTestContainer_content {
+  width: 100%;
+  background-color: #fff;
+}
+
+.nowContainer {
+  width: 85%;
+  margin: 0 auto;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+
+.beforeTest_btnArea {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tempSaveBtn {
+  width: 70px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-right: 5px;
+  border: 0.5px solid #888;
+  cursor: pointer;
+}
+
+.writeBtn {
+  width: 70px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(111, 118, 193);
+  color: #fff;
+  cursor: pointer;
+}
+
+.beforeTest_desc_inner_title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0 50px;
+  color: rgb(111, 118, 193);
+}
+
+.beforeTest_desc_inner_txt {
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #888;
+}
+.beforeTest_desc_inner_txt div {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.beforeTest_content {
+  font-size: 12px;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px 3px #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+}
+
+.beforeTest_question {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.beforeTest_question .beforeTest_question_g {
+  font-size: 16px;
+}
+
+.beforeTest_answer_area {
+  width: 100%;
+  margin: 18px auto 32px;
+  display: flex;
+  padding: 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 3px #ddd;
+}
+.beforeTest_answer_area .beforeTest_answer {
+  display: flex;
+}
+.beforeTest_answer_area .beforeTest_answer input {
+  margin-right: 10px;
+}
+
+.beforeTest_desc {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.beforeResult_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.beforeResult_items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.beforeResult_item {
+  width: 23%;
+  height: 100px;
+  border: 1px solid rgb(111, 118, 193);
+}
+
+.beforeResult_abilityResult {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 5px 3px #ddd;
+  background-color: #f9fafc;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 20px 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+.beforeResult_abilityResult .beforeResult_abilityResult_box {
+  width: 23.089%;
+  height: 270px;
+  text-align: center;
+  margin-right: 15px;
+}
+.beforeResult_abilityResult .beforeResult_abilityResult_box .beforeResult_abilityResult_box_title {
+  width: 90%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: auto;
+  height: 15px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 8px 2px 62px 0px rgba(34, 51, 89, 0.09);
+}
+.beforeResult_abilityResult .beforeResult_abilityResult_box:nth-child(4) {
+  margin-left: 0;
+}
+
+.beforeResult_chart {
+  box-shadow: none;
+  margin: 0;
+}
+
+.beforeResult_analysisBox {
+  width: 100%;
+}
+.beforeResult_analysisBox .beforeResult_analysisBox_title {
+  padding: 80px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(111, 118, 193);
+}
+.beforeResult_analysisBox ul {
+  width: 100%;
+}
+.beforeResult_analysisBox ul li {
+  height: 30px;
+  margin: 30px auto;
+  padding: 30px 50px 30px 55px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 8px 2px 62px 0px rgba(34, 51, 89, 0.09);
+  font-size: 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.beforeResult_analysisBox ul li .beforeResult_analysisBox_col {
+  width: 10px;
+  height: auto;
+  border-radius: 15px 0 0 15px;
+  padding: 40px 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(111, 118, 193);
+}
+
+.beforeTest_notice_inner {
+  background-color: rgba(111, 118, 193, 0.1);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 60px 0 20px;
+}
+.beforeTest_notice_inner .beforeTest_notice_txt {
+  color: #4c539a;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.beforeTest_bottom {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.beforeTest_bottom .beforeTest_notice_answer {
+  display: flex;
+  align-items: center;
+}
+.beforeTest_bottom .beforeTest_notice_answer input {
+  margin-right: 10px;
+}
+.beforeTest_bottom .beforeTest_button .beforeTest_button_left {
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #888;
+  color: #888;
+}
+.beforeTest_bottom .beforeTest_button .beforeTest_button_right {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(111, 118, 193);
+  border: 1px solid rgb(111, 118, 193);
+  color: #fff;
+}
+
+.beforeTest_notice_yes {
+  font-size: 12px;
+  color: #888;
+}
+
+.afterResult_beforeBox {
+  width: 40%;
+  height: 100%;
+  box-shadow: 1px 1px 5px 3px #ddd;
+}
+
+.afterTest_inner, .afterResult_box {
+  border-radius: 10px;
+  height: 550px;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  padding: 30px;
+  box-shadow: 1px 1px 5px 3px #ddd;
+}
+.afterTest_inner .afterTest_inner_title, .afterTest_inner .afterResult_box_title, .afterResult_box .afterTest_inner_title, .afterResult_box .afterResult_box_title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0 15px;
+  color: rgb(111, 118, 193);
+}
+
+.beforeResult_abilityResult_box_chart {
+  height: 220px;
+}
+
+@media (min-width: 335px) and (max-width: 757px) {
+  .nowContainer {
+    width: 100%;
+  }
+  .beforeTest_content {
+    padding: 15px;
+  }
+  .module_box {
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+  }
+  .module_box a {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+  .module_cardImg {
+    width: 100%;
+    height: 246px;
+  }
+  .beforeResult_abilityResult {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .beforeResult_abilityResult .beforeResult_abilityResult_box {
+    width: 90%;
+  }
+  .selfTestContainer_sidebar {
+    position: static;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .selfTestContainer_sidebar a {
+    width: 50%;
+  }
+  .selfTestContainer_sidebar .active button, .selfTestContainer_sidebar button {
+    width: 95%;
+    text-align: center;
+  }
+  .beforeTest_bottom {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .beforeTest_bottom .beforeTest_notice_answer {
+    padding-bottom: 20px;
+  }
+  .beforeTest_bottom .beforeTest_button {
+    width: 100%;
+  }
+  .beforeTest_bottom button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .beforeResult_analysisBox ul li {
+    height: 100%;
+    padding: 20px 30px 20px 55px;
+  }
+  .afterTest_inner .afterTest_inner_title, .afterTest_inner .afterResult_box_title, .afterResult_box .afterTest_inner_title, .afterResult_box .afterResult_box_title {
+    font-size: 18px;
+    padding: 20px 0 0;
+    line-height: 1.2;
+  }
+}
+@media (min-width: 758px) and (max-width: 1023px) {
+  .item-form .item-inner .tab-btn-area {
+    margin: 50px auto 30px;
+    flex-direction: row;
+  }
+  .module_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .module_box {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .module_box a {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+  .module_box a:nth-child(2n) {
+    margin-right: 0;
+  }
+  .module_cardImg {
+    width: 100%;
+    height: 246px;
+  }
+  .beforeResult_abilityResult {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .beforeResult_abilityResult .beforeResult_abilityResult_box {
+    width: 45%;
+  }
+  .beforeTest_bottom .beforeTest_button .beforeTest_button_left, .beforeTest_bottom .beforeTest_button .beforeTest_button_right {
+    padding: 5px 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .beforeResult_abilityResult {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .beforeResult_abilityResult .beforeResult_abilityResult_box {
+    width: 23.089%;
+    height: 260px;
+  }
+}/*# sourceMappingURL=selfTest.css.map */

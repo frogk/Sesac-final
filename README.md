@@ -8,7 +8,7 @@ Sesac 프론트엔드 실무 프로젝트 과정의 최종 팀 프로젝트로 �
 ## 📌프로젝트 개요
 
 * 진행 날짜 - 2022.07.04 ~ 2022.08.03
-* 목적 - 기업에 입사하게 된 신입사원의 온보딩 교육을 위한 사이트 제작.
+* 목적 - 엑스퍼트컨설팅 케미버스 홈페이지 제작
 * 사이트 소개 - 최종 합격한 신입사원들이 입사 전 필요한 정보를 얻는 **Connect with** 페이지와 입사 후 사번으로 로그인하여 본격적인 온보딩 교육을 받을 수 있는 **On & Up** 페이지로 나뉘어진 사이트입니다.
 
 | Connect With | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f17af8e4-fb5f-45e1-b71f-eee2f1c0dac4/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2022-08-08_034447.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220807%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220807T185803Z&X-Amz-Expires=86400&X-Amz-Signature=d5d66b65411432984cf6c4289138b77d0e5346d1af0796cf72e90789c46bb461&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25ED%2599%2594%25EB%25A9%25B4%2520%25EC%25BA%25A1%25EC%25B2%2598%25202022-08-08%2520034447.png%22&x-id=GetObject"> |
@@ -35,7 +35,7 @@ Sesac 프론트엔드 실무 프로젝트 과정의 최종 팀 프로젝트로 �
   아이디 : user01
   비밀번호 : 1234
   ```
-
+<br><br>
 
 ## 😎 Team
 
@@ -50,7 +50,7 @@ Sesac 프론트엔드 실무 프로젝트 과정의 최종 팀 프로젝트로 �
 
 ## 🐸 나의 업무
 
-* 게시판 기능을 구현하였습니다. 데이터를 불러와 map()을 이용해 반복으로 보여주었으며 페이지네이션과 제목을 클릭하면 자세히 보기 기능을 구현했습니다.
+* 게시판 기능을 구현하였습니다. 데이터를 불러와 map()을 이용해 반복으로 보여주었으며 페이지네이션을 구현했고 제목을 클릭하면 자세히 보기 기능을 구현했습니다.
 * 강의정보 보여주기 페이지를 만들었습니다. 강의 url 복사기능, 달력으로 일정 확인하기, 강사 정보 확인 페이지를 만들었습니다.
 * 전체적인 css를 수정했습니다. 제가 작업한 페이지 뿐 아니라 다른 조원들이 작업한 페이지에서 반응형이 적용되지 않거나 다른 css오류가 있는 경우 그것을 수정했습니다.
 
